@@ -1,26 +1,42 @@
-@import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ── LIGHT MODE (default) ── */
+:root, html.light {
+  --bg:         #f8f7f4;
+  --bg-mid:     #f0ede8;
+  --bg-light:   #e8e4dc;
+  --gold:       #b8933e;
+  --gold-light: #d4a94e;
+  --gold-dim:   #8a6f2e;
+  --text:       #1a2035;
+  --text-dim:   #5a6478;
+  --border:     rgba(184,147,62,0.2);
+  --card-bg:    #ffffff;
+  --footer-bg:  #1a2035;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* ── DARK MODE ── */
+html.dark {
+  --bg:         #0a1628;
+  --bg-mid:     #112240;
+  --bg-light:   #1a3356;
+  --gold:       #c9a84c;
+  --gold-light: #e8c97a;
+  --gold-dim:   #8a6f2e;
+  --text:       #ffffff;
+  --text-dim:   #8a9bb5;
+  --border:     rgba(201,168,76,0.15);
+  --card-bg:    #112240;
+  --footer-bg:  #060e1a;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* ── BASE ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'DM Sans', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  overflow-x: hidden;
+  transition: background 0.3s ease, color 0.3s ease;
 }
