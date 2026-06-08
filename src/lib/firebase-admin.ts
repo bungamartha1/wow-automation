@@ -4,7 +4,6 @@
 import { getApps, initializeApp, cert } from "firebase-admin/app";
 import { getFirestore } from "firebase-admin/firestore";
 import { getDatabase } from "firebase-admin/database";
-import serviceAccount from "../../service-account.json";
 
 if (!getApps().length) {
   initializeApp({
