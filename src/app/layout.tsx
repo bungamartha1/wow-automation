@@ -206,20 +206,20 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                       <circle cx="17.5" cy="6.5" r="0.8" fill="currentColor" stroke="none"/>
                     </svg>
                   </a>
-                  <a href="#" className="sf-social-btn" aria-label="LinkedIn">
+                  <a href="https://www.linkedin.com/kr/kim-seunghwa9325" className="sf-social-btn" aria-label="LinkedIn">
                     <svg viewBox="0 0 24 24" fill="currentColor">
                       <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/>
                       <rect x="2" y="9" width="4" height="12"/>
                       <circle cx="4" cy="4" r="2"/>
                     </svg>
                   </a>
-                  <a href="#" className="sf-social-btn" aria-label="YouTube">
+                  <a href="WOW-Automation-Youtube-Channel" className="sf-social-btn" aria-label="YouTube">
                     <svg viewBox="0 0 24 24" fill="currentColor">
                       <path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 00-1.95 1.96A29 29 0 001 12a29 29 0 00.46 5.58 2.78 2.78 0 001.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.96A29 29 0 0023 12a29 29 0 00-.46-5.58z"/>
                       <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="white"/>
                     </svg>
                   </a>
-                  <a href="#" className="sf-social-btn" aria-label="KakaoTalk">
+                  <a href="WOW-Automation-Business-Kakaotalk" className="sf-social-btn" aria-label="KakaoTalk">
                     <svg viewBox="0 0 24 24" fill="currentColor">
                       <path d="M12 3C6.48 3 2 6.58 2 11c0 2.84 1.76 5.33 4.41 6.84l-.9 3.3a.3.3 0 00.44.34l3.8-2.53C10.5 18.98 11.24 19 12 19c5.52 0 10-3.58 10-8s-4.48-8-10-8z"/>
                     </svg>
